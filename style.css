@@ -63,6 +63,8 @@ button {
     border: black 1px solid;
     /* Alex said he will deal with this cause its his job and he hasnt done anything yet. */
     /* border-radius: 10px; */
+    /* Alex what do u thnk of making the borders the same gray as the placeholder color */
+    
     flex-grow: 1;
     max-width: 100%;
     margin-left: 10px;

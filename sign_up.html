@@ -24,14 +24,38 @@
                 <input type="text" placeholder="Email">
             </div>
             <div class="form-row">
-                <input type="password" name="password" placeholder="Password">
-                <input type="password" name="confirm" placeholder="Confirm">
+                <input type="password" name="password" placeholder="Password" class="pw1">
+                <input type="password" name="confirm" placeholder="Confirm" class="pw2">
             </div>
+
+            <p id="passwordmessage"></p>
+
             <div class="form-row">
-                <button type="submit">SIGN UP</button>
+                <button type="submit" class="submit">SIGN UP</button>
             </div>
         </form>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            document.querySelector('.submit').addEventListener('click', function() {
+                let pw1 = document.querySelector('.pw1');
+                let pw2 = document.querySelector('.pw2');
+              
+                if (pw1.value == "" || pw2.value == "") {
+                    alert("Field cannot be empty");
+                }
+
+                else if (pw1 != pw2) {
+                    alert("Passwords must be matching")
+                } 
+            });
+        });
+
+        //won't just be a window alert button, will need for divs to move around first 
+
+    </script>
 </body>
 
 </html>
