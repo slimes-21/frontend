@@ -13,6 +13,22 @@
     padding-bottom: 15px;
 }
 
+.Skedgelogo {
+  width: center;
+  height: 38px; 
+  padding: 18px 50px;
+  color: rgb(0, 172, 224);
+  font-size: 2.2cm; 
+  font-weight: 700;
+  margin-bottom: 50px;
+
+
+
+}
+
+
+
+
 body {
     background-color: #edfbff;
 }
