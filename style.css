@@ -14,21 +14,23 @@
 }
 
 .Skedgelogo {
-  width: center;
-  height: 38px; 
-  padding: 18px 50px;
-  color: rgb(0, 172, 224);
-  font-size: 1.1cm; 
-  font-weight: 700;
-  margin-bottom: 20px;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+    width: center;
+    height: 38px;
+    padding: 18px 50px;
+    color: rgb(0, 172, 224);
+    font-size: 1.1cm;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
-.Skedgelogoindex:hover b {color: #6200ff;}
+.Skedgelogoindex:hover b {
+    color: #6200ff;
+}
 
 .Skedgelogoindex {
     width: 130px;
@@ -49,11 +51,8 @@
 }
 
 .topbar {
-
     random shit
-
 }
-
 
 body {
     background-color: #fdfdfd;
@@ -97,7 +96,7 @@ button {
     padding: 30px;
     border-radius: 20px;
     border: #e7e0e0 1px solid;
-    display: inline-flex;
+    display: inline-block;
 }
 
 .form-container h1 {
@@ -121,21 +120,21 @@ button {
     /* Alex said he will deal with this cause its his job and he hasnt done anything yet. */
     /* border-radius: 10px; */
     /* Alex what do u thnk of making the borders the same gray as the placeholder color */
-    
     flex-grow: 1;
     max-width: 100%;
     margin-left: 10px;
     padding: 10px;
 }
 
-html, body {
+html,
+body {
     font-family: sans-serif;
     width: 100%;
     height: 100%;
     margin: 0;
-  }
-  
-  #friend-list { 
+}
+
+#friend-list {
     display: block;
     margin: 0;
     padding: 0;
@@ -146,10 +145,9 @@ html, body {
     position: absolute;
     right: 0;
     top: 25%;
+}
 
-  }
-  
-  .friend {
+.friend {
     width: 300px;
     height: 60px;
     background: #EEE;
@@ -157,9 +155,9 @@ html, body {
     cursor: pointer;
     display: flex;
     align-items: center;
-  }
-  
-  .friend img {
+}
+
+.friend img {
     width: 45px;
     height: 45px;
     border-radius: 30px;
@@ -167,25 +165,24 @@ html, body {
     object-fit: cover;
     margin-left: 5px;
     margin-right: 10px;
-  }
-  
-  .friend .name {
+}
+
+.friend .name {
     font-size: 18px;
-  }
-  
-  .friend.selected {
+}
+
+.friend.selected {
     background: #43A047;
     color: white;
-  }
-  
-  .friend.selected img {
-    border-color: white;
-  }
-  
-  .friend:not(.selected):hover {
-    background: #DDD;
+}
 
-  }
+.friend.selected img {
+    border-color: white;
+}
+
+.friend:not(.selected):hover {
+    background: #DDD;
+}
 
 table th {
     text-align: center;
@@ -205,12 +202,11 @@ table td {
     height: 30px;
 }
 
-table { 
+table {
     border-spacing: 0;
     border-collapse: collapse;
     table-layout: fixed;
-    width: 70%;
-    }
+}
 
 #c1 {
     width: 60px;
@@ -220,14 +216,13 @@ table {
     text-align: left;
 }
 
-
 .Skedgelogohome {
     width: center;
-    height: 38px; 
+    height: 38px;
     padding: 18px 50px;
     color: rgb(0, 172, 224);
-    font-size: 1.1cm; 
+    font-size: 1.1cm;
     font-weight: 700;
     margin-bottom: 20px;
     align-items: left;
-  }
+}
