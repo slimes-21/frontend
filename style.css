@@ -138,9 +138,9 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 350px;
     height: 500px;
-    background: #EEE;
+    background: #fdfdfd;
     list-style-type: none;
     position: absolute;
     right: 0;
@@ -167,7 +167,7 @@ body {
     margin-right: 10px;
 }
 
-.friend .name {
+.friend.name {
     font-size: 18px;
 }
 
@@ -187,8 +187,8 @@ body {
 table th {
     text-align: center;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
     width: 200px;
     height: 30px;
 }
@@ -196,11 +196,16 @@ table th {
 table td {
     text-align: center;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
     width: 200px;
     height: 30px;
 }
+
+th {
+    font-weight: normal;
+}
+
 
 table {
     border-spacing: 0;
