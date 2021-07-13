@@ -91,7 +91,7 @@ button {
     margin-top: 100px;
     margin-left: 150px;
     background-color: white;
-    width: 35%;
+    width: 50%;
     text-align: center;
     padding: 30px;
     border-radius: 20px;
@@ -147,6 +147,8 @@ table td {
 table { 
     border-spacing: 0;
     border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
     }
 
 #c1 {
