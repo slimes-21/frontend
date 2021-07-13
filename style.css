@@ -18,15 +18,33 @@
   height: 38px; 
   padding: 18px 50px;
   color: rgb(0, 172, 224);
-  font-size: 2.2cm; 
+  font-size: 1.1cm; 
   font-weight: 700;
-  margin-bottom: 50px;
-
-
-
+  margin-bottom: 20px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
-
+.Skedgelogoindex {
+    width: 130px;
+    height: 38px;
+    padding: 18px 50px;
+    color: rgb(0, 172, 224);
+    font-size: 1.5cm;
+    font-weight: 400;
+    position: fixed;
+    cursor: pointer;
+    transition: color 0.5s ease 0s;
+    user-select: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
 
 
 body {
@@ -47,8 +65,10 @@ button {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    -webkit-box-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
 .form-container {
@@ -70,8 +90,10 @@ button {
     margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     justify-items: flex-start;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
 .form-row input,
