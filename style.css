@@ -1,18 +1,72 @@
 * {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #name {
-  background-color: transparent;
-  font-family: "Roboto";
-  font-size: 65px;
-  text-align: center;
-  color: #525252;
-  font-weight: 450;
-  padding-top: 20px;
-  padding-bottom: 15px;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-size: 65px;
+    text-align: center;
+    color: #525252;
+    font-weight: 450;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 body {
     background-color: #edfbff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.buttons {
+    float: right;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    margin-top: 100px;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: #e7e0e0 1px solid;
+}
+
+.form-container h1 {
+    font-weight: 100;
+}
+
+.form-row {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+
+.form-row input,
+.form-row button {
+    border: black 1px solid;
+    /* Alex said he will deal with this cause its his job and he hasnt done anything yet. */
+    /* border-radius: 10px; */
+    /* Alex what do u thnk of making the borders the same gray as the placeholder color */
+    
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 10px;
+    padding: 10px;
 }
