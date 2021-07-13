@@ -46,9 +46,15 @@
     align-items: center;
 }
 
+.topbar {
+
+
+
+}
+
 
 body {
-    background-color: #edfbff;
+    background-color: #fdfdfd;
 }
 
 button {
@@ -120,7 +126,7 @@ table th {
 table td {
     text-align: center;
     background-color: white;
-    border: 1px  black;
+    border: 1px solid black;
     color: black;
     width: 150px;
     height: 30px;
