@@ -87,6 +87,17 @@ button {
     border: #e7e0e0 1px solid;
 }
 
+.table-container {
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: #e7e0e0 1px solid;
+}
+
 .form-container h1 {
     font-weight: 100;
 }
@@ -120,6 +131,7 @@ table th {
     background-color: white;
     border: 1px solid black;
     color: black;
+    width: 200px;
     height: 30px;
 }
 
@@ -128,7 +140,7 @@ table td {
     background-color: white;
     border: 1px solid black;
     color: black;
-    width: 150px;
+    width: 200px;
     height: 30px;
 }
 
@@ -140,3 +152,19 @@ table {
 #c1 {
     width: 60px;
 }
+
+#leftforce {
+    text-align: left;
+}
+
+
+.Skedgelogohome {
+    width: center;
+    height: 38px; 
+    padding: 18px 50px;
+    color: rgb(0, 172, 224);
+    font-size: 1.1cm; 
+    font-weight: 700;
+    margin-bottom: 20px;
+    align-items: left;
+  }
