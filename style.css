@@ -28,6 +28,8 @@
   align-items: center;
 }
 
+.Skedgelogoindex:hover b {color: #6200ff;}
+
 .Skedgelogoindex {
     width: 130px;
     height: 38px;
@@ -37,7 +39,7 @@
     font-weight: 400;
     position: fixed;
     cursor: pointer;
-    transition: color 0.5s ease 0s;
+    transition: color 1s ease 0s;
     user-select: none;
     display: flex;
     -webkit-box-pack: center;
