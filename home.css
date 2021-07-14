@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*search bar*/ 
+/*search bar*/
 .friendsrow {
     width: 100%;
     margin-bottom: 15px;
@@ -26,11 +26,109 @@
     padding: 10px;
 }
 
-.plus a{
-    text-align: center; 
-    margin:auto;
+.plus a {
+    text-align: center;
+    margin: auto;
     padding: 10;
     width: 200px;
     height: 30px;
     right: 5%;
+}
+
+table th {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
+    width: 200px;
+    height: 30px;
+}
+
+table td {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
+    width: 200px;
+    height: 30px;
+}
+
+th {
+    font-weight: normal;
+}
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#c1 {
+    width: 60px;
+}
+
+#leftforce {
+    text-align: left;
+}
+
+#friend-list {
+    display: block;
+    padding: 0;
+    width: 350px;
+    height: 500px;
+    background: #fdfdfd;
+    list-style-type: none;
+    border-radius: 20px;
+    border: #e7e0e0 1px solid;
+    margin: 0 0 0 20px;
+}
+
+.table-container {
+    margin-left: 5%;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: #e7e0e0 1px solid;
+    display: inline-block;
+}
+
+.dashboard-container {
+    display: inline-flex;
+    justify-items: flex-start;
+}
+
+.dashboard-container div {
+    display: inline-block;
+}
+
+.demo-list-control {
+    width: 100%;
+    overflow-y: scroll;
+    height: 455px;
+}
+
+.demo-list-radio {
+    display: inline;
+}
+
+@media only screen and (max-width: 1025px) {
+    .dashboard-container {
+        display: block;
+    }
+
+    #friend-list {
+        margin: 0;
+        width: auto;
+        text-align: center;
+    }
+
+    .mdl-list {
+        width: 100% !important;
+    }
+
+    .table-container {
+        margin: 0;
+    }
 }
