@@ -126,3 +126,7 @@ body {
     margin: auto;
     padding: 10
 }
+
+.textgoestoolong {
+    margin-right: 20%;
+}
