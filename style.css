@@ -56,7 +56,11 @@
 
 body {
     background-color: #fdfdfd;
+
+    padding-bottom: 5%;
+
 }
+
 
 button {
     cursor: pointer;
@@ -231,3 +235,4 @@ table {
     margin-bottom: 20px;
     align-items: left;
 }
+
