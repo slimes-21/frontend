@@ -70,16 +70,21 @@ body {
 
 .rounded_border {
     padding: 10px 9px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 172, 224);
     border-radius: 20px;
     outline: none;
     margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+    text-align: center;
 }
 
 body {
     background-color: #fdfdfd;
 }
 
+<<<<<<< HEAD
 
 
 .paragraphleft {
@@ -99,4 +104,9 @@ body {
     display: flex; 
     
 
+=======
+.notextdec {
+    text-decoration: none;
+    color: rgb(0, 172, 224);
+>>>>>>> e6381922e177ae304f77b969ef230c3fb2dc057c
 }
