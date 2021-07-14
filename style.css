@@ -83,7 +83,7 @@ button {
 }
 
 .form-container {
-    margin-top: 100px;
+    margin-top: 5%;
     background-color: white;
     width: 35%;
     text-align: center;
@@ -234,4 +234,10 @@ table {
     font-weight: 700;
     margin-bottom: 20px;
     align-items: left;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+
+>>>>>>> Stashed changes
