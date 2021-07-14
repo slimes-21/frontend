@@ -84,7 +84,29 @@ body {
     background-color: #fdfdfd;
 }
 
+<<<<<<< HEAD
+
+
+.paragraphleft {
+    idk;
+}
+
+.paragraphright {
+    test; 
+}
+
+.block { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.headings {
+    display: flex; 
+    
+
+=======
 .notextdec {
     text-decoration: none;
     color: rgb(0, 172, 224);
+>>>>>>> e6381922e177ae304f77b969ef230c3fb2dc057c
 }
