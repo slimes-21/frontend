@@ -32,7 +32,7 @@
     color: #1900ff;
 }
 
-.Skedgelogoindex {
+/* .Skedgelogoindex {
     width: 130px;
     height: 38px;
     padding: 18px 50px;
@@ -48,15 +48,28 @@
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
+} */
+
+.navbar .Skedgelogoindex a {
+    color: rgb(0, 172, 224);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
+
 .topbar {
-    random shit
+    /* random shit */
+    /* nice */
 }
 
 body {
     background-color: #fdfdfd;
+
+    padding-bottom: 5%;
+
 }
+
 
 button {
     cursor: pointer;
@@ -138,9 +151,9 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 350px;
     height: 500px;
-    background: #EEE;
+    background: #fdfdfd;
     list-style-type: none;
     position: absolute;
     right: 0;
@@ -167,7 +180,7 @@ body {
     margin-right: 10px;
 }
 
-.friend .name {
+.friend.name {
     font-size: 18px;
 }
 
@@ -187,8 +200,8 @@ body {
 table th {
     text-align: center;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
     width: 200px;
     height: 30px;
 }
@@ -196,11 +209,16 @@ table th {
 table td {
     text-align: center;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #dadada;
+    color: rgb(119, 119, 119);
     width: 200px;
     height: 30px;
 }
+
+th {
+    font-weight: normal;
+}
+
 
 table {
     border-spacing: 0;
@@ -225,4 +243,46 @@ table {
     font-weight: 700;
     margin-bottom: 20px;
     align-items: left;
+}
+
+
+.navbar {
+    background: lightgray;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    padding: 10px 0;
+}
+
+.log-in-out li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.bar {
+    width: 80%;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navbar .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .log-in-out {
+    display: inline-flex;
+}
+
+.log-in-out li {
+    list-style: none;
+    
+}
+
+.padding {
+    padding-top: 75px;
 }
