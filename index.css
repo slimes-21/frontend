@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    background: lightgray;
+    background: #fdfdfd;
     width: 100%;
     position: fixed;
     z-index: 0;
@@ -75,3 +75,8 @@ body {
     outline: none;
     margin-top: 10px;
 }
+
+body {
+    background-color: #fdfdfd;
+}
+
