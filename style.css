@@ -28,9 +28,7 @@
     align-items: center;
 }
 
-.Skedgelogoindex:hover b {
-    color: #1900ff;
-}
+
 
 /* .Skedgelogoindex {
     width: 130px;
@@ -49,13 +47,6 @@
     -webkit-box-align: center;
     align-items: center;
 } */
-
-.navbar .Skedgelogoindex a {
-    color: rgb(0, 172, 224);
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-}
 
 
 .topbar {
@@ -243,46 +234,4 @@ table {
     font-weight: 700;
     margin-bottom: 20px;
     align-items: left;
-}
-
-
-.navbar {
-    background: lightgray;
-    width: 100%;
-    position: fixed;
-    z-index: 0;
-    padding: 10px 0;
-}
-
-.log-in-out li a {
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    text-decoration: none;
-}
-
-.bar {
-    width: 80%;
-    margin: auto;
-    padding: 0px 30px;
-}
-
-.navbar .bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar .log-in-out {
-    display: inline-flex;
-}
-
-.log-in-out li {
-    list-style: none;
-    
-}
-
-.padding {
-    padding-top: 75px;
 }
