@@ -80,3 +80,23 @@ body {
     background-color: #fdfdfd;
 }
 
+
+
+.paragraphleft {
+    idk;
+}
+
+.paragraphright {
+    test; 
+}
+
+.block { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.headings {
+    display: flex; 
+    
+
+}
