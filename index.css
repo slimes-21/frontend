@@ -40,7 +40,7 @@
 }
 
 .padding {
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 .Skedgelogoindex:hover b {
@@ -49,7 +49,7 @@
 
 .navbar .Skedgelogoindex a {
     color: rgb(0, 172, 224);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     text-decoration: none;
 }
@@ -68,3 +68,10 @@ body {
     margin: 0;
 }
 
+.rounded_border {
+    padding: 10px 9px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
