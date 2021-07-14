@@ -83,7 +83,11 @@ button {
 }
 
 .form-container {
+<<<<<<< HEAD
 
+=======
+    margin-top: 5%;
+>>>>>>> 0281982c810fdba056c345e18405931645db24b3
     background-color: white;
     width: 35%;
     text-align: center;
