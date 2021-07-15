@@ -22,48 +22,54 @@
     </nav>
     <div class="padding">
     </div>
-    <div class="incfriendrequests">
-        <div class="pleasegototheright">
-            You have 3 incoming friend requests
-        <ul>
-            <li>
-                Alexander Mai wants to be your friend!
-                <button>Accept this request</button>
-                <button>Decline this request</button>
-            </li>
-            <li>
-                Raymond He wants to be your friend!
-                <button>Accept this request</button>
-                <button>Decline this request</button>
-            </li>
-            <li>
-                Andrew Wang wants to be your friend! 
-                <button>Accept this request</button>
-                <button>Decline this request</button>
-            </li>
-        </ul>
+
+    <div class="block">
+
+    
+        <div class="container">
+            <form class="form-container" method="POST">
+                <div class="Skedgelogo">Skedge.</div>
+    
+                <div class="form-row" id="noresize">
+                    <textarea id="newbio" name="newbio" rows="6" cols="40" placeholder="Enter your new biography"></textarea>
+                </div>
+    
+                    
+                <div class="form-row">
+                    <button type="submit" class="submit">Save</button>
+                </div>
+                <form action="/action_page.php">
+                    Insert a new csv file
+                    <input type="file" id="myFile" name="csvfile">
+                    <input type="submit">
+                </form>
+            </form>
+        </div>
+
+        <div class="incfriendrequests">
+            <div class="pleasegototheright">
+                You have 3 incoming friend requests
+            <ul>
+                <li>
+                    Alexander Mai wants to be your friend!
+                    <button>Accept this request</button>
+                    <button>Decline this request</button>
+                </li>
+                <li>
+                    Raymond He wants to be your friend!
+                    <button>Accept this request</button>
+                    <button>Decline this request</button>
+                </li>
+                <li>
+                    Andrew Wang wants to be your friend! 
+                    <button>Accept this request</button>
+                    <button>Decline this request</button>
+                </li>
+            </ul>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <form class="form-container" method="POST">
-            <div class="Skedgelogo">Skedge.</div>
-
-            <div class="form-row" id="noresize">
-                <textarea id="newbio" name="newbio" rows="6" cols="40" placeholder="Enter your new biography"></textarea>
-            </div>
-
-                
-            <div class="form-row">
-                <button type="submit" class="submit">Save</button>
-            </div>
-            <form action="/action_page.php">
-                Insert a new csv file
-                <input type="file" id="myFile" name="csvfile">
-                <input type="submit">
-            </form>
-        </form>
-    </div>
 
 </body>
 

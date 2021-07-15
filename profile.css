@@ -148,5 +148,10 @@ body {
 
 
 .pleasegototheright {
-    object-position: right;
+    object-position: center;
+}
+
+.block { 
+    display: flex; 
+    justify-content: center; 
 }
