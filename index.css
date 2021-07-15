@@ -165,6 +165,10 @@ body {
     text-align: center;
 }
 
+.sizingproblems1 {
+    max-width: 50%;
+    height: auto;
+}
 .sizingproblems {
     max-width: 50%;
     height: auto;
