@@ -130,4 +130,7 @@ body {
 
 .textgoestoolong {
     margin-right: 20%;
+    font-size: 30px;
+    color: #999999; 
+
 }
