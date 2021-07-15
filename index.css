@@ -137,7 +137,7 @@ body {
 }
 
 .birdleft { 
-    margin-right: 250px; 
+    margin-right: 10%; 
 
 }
 
@@ -163,4 +163,9 @@ body {
 .inline ul {
     list-style-type: none;
     text-align: center;
+}
+
+.sizingproblems {
+    width: inherit;
+    margin-right:2%;
 }
