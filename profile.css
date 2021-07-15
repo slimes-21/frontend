@@ -102,3 +102,16 @@ body {
 .classes ul {
     text-align: left;
 }
+
+.incfriendrequests {
+    padding: 10px 9px;
+    border: 2px solid rgb(0, 172, 224);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
