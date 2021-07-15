@@ -134,7 +134,7 @@ table {
 }
 
 .navbar {
-    background: transparent;
+    background: #fdfdfd;
     width: 100%;
     position: fixed;
     z-index: 99;
