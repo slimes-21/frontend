@@ -233,13 +233,15 @@ body {
 }
 
 .friendhaveclasstoo {
-    font-size: 20;
-    color: black;
+    font-size: 15px;
+    color: #fdfdfd;
     background-color: cornflowerblue;
     width: 100%;
     height: 110%;
     margin: 0;
     padding: 0;
+    text-align: center;
+    
 }
 
 .search {
