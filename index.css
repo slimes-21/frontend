@@ -166,6 +166,6 @@ body {
 }
 
 .sizingproblems {
-    width: inherit;
-    margin-right:2%;
+    max-width: 70%;
+    height: auto;
 }
