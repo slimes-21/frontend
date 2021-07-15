@@ -10,6 +10,28 @@
     padding: 10px 0;
 }
 
+.rounded_border {
+    padding: 10px 9px;
+    border: 2px solid rgb(0, 172, 224);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+.notextdec {
+    text-decoration: none;
+    color: rgb(0, 172, 224);
+    font-weight: 150;
+}
+
 .log-in-out li a {
     color: black;
     font-size: 18px;
