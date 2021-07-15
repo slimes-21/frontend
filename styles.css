@@ -220,3 +220,7 @@ body {
     color: rgb(0, 172, 224);
     font-weight: 150;
 }
+
+.error_msg {
+    color: red;
+}
