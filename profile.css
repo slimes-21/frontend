@@ -99,13 +99,8 @@ body {
     border: #e7e0e0 1px solid;
 }
 
-.bio {
-    background-color: white;
-    width: 50%;
-    text-align: left;
-    padding: 30px;
-    border-radius: 20px;
-    border: #e7e0e0 1px solid;
+.newbio {
+    resize: none;
 }
 .aboutyou {
     text-align: center;
@@ -126,4 +121,32 @@ body {
     width: 200px;
     height: auto;
     text-align: center;
+    object-position: right;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border:rgb(0, 172, 224) 1px solid;
+}
+
+.form-container h1 {
+    font-weight: 100;
+}
+
+
+.pleasegototheright {
+    object-position: right;
 }

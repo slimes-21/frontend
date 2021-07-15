@@ -12,11 +12,6 @@
         <div class="bar">
             <div class="Skedgelogoindex"><a href="index.html">Skedge.</a></div>
                 <ul class="log-in-out">
-                    <a href="editprofile.html" class="notextdec">
-                        <div class="rounded_border">
-                            <li>Edit Profile</li>
-                        </div>
-                    </a>
                     <a href="index.html" class="notextdec">
                         <div class="rounded_border">
                             <li>Sign Out</li>
@@ -27,23 +22,9 @@
     </nav>
     <div class="padding">
     </div>
-
-    <div class="classes">
-        You are taking the classes:
-        <ul>
-            <li>FIT1045 Tutorial Thursday 16:00</li>
-            <li>FIT1008 Workshop Wednesday 10:00</li>
-            <li>BTC1110 Tutorial Friday 12:00</li>
-            <li>MAT1830 Applied Tuesday 08:00</li>
-        </ul>
-    </div>
-
-    <div class="bio">
-        <div class="aboutyou">About you:</div>
-        I'm a first year Computer Science and Commerce student looking to specialise in Advanced Computer Science and Major in Business Analytics.
-    </div>
     <div class="incfriendrequests">
-        You have 3 incoming friend requests
+        <div class="pleasegototheright">
+            You have 3 incoming friend requests
         <ul>
             <li>
                 Alexander Mai wants to be your friend!
@@ -61,6 +42,27 @@
                 <button>Decline this request</button>
             </li>
         </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <form class="form-container" method="POST">
+            <div class="Skedgelogo">Skedge.</div>
+
+            <div class="form-row" id="noresize">
+                <textarea id="newbio" name="newbio" rows="6" cols="40" placeholder="Enter your new biography"></textarea>
+            </div>
+
+                
+            <div class="form-row">
+                <button type="submit" class="submit">Save</button>
+            </div>
+            <form action="/action_page.php">
+                Insert a new csv file
+                <input type="file" id="myFile" name="csvfile">
+                <input type="submit">
+            </form>
+        </form>
     </div>
 
 </body>
