@@ -112,6 +112,6 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     width: 200px;
-    height: 500px;
+    height: auto;
     text-align: center;
 }
