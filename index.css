@@ -118,7 +118,8 @@ body {
     font-weight: 600;
     text-align: center;
     margin: auto;
-    padding: 10
+    padding: 10;
+    padding-bottom: 30px;
 
 } 
 
@@ -156,6 +157,7 @@ body {
 .inline ul li {
     display: inline;
     padding: 10px;
+    padding-bottom: 5%;
 }
 
 .inline ul {
