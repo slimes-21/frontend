@@ -48,12 +48,6 @@
     align-items: center;
 } */
 
-
-.topbar {
-    /* random shit */
-    /* nice */
-}
-
 body {
     background-color: #fdfdfd;
 
@@ -223,4 +217,4 @@ body {
 
 .error_msg {
     color: red;
-}
+} 
