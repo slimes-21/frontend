@@ -76,7 +76,7 @@ table {
     display: block;
     padding: 0;
     width: 350px;
-    height: 500px;
+    height: 540px;
     background: #fdfdfd;
     list-style-type: none;
     border-radius: 20px;
@@ -240,4 +240,12 @@ body {
     height: 110%;
     margin: 0;
     padding: 0;
+}
+
+.search {
+    width: 95%;
+    height: 6%;
+ 
+    
+
 }
